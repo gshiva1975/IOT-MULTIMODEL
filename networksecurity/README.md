@@ -46,7 +46,7 @@ python3 scripts/generate_rag_report.py                                  # free, 
 get 10 samples spread across two specific classes (5 each), restrict with `--classes`:
 
 ```bash
-python3 scripts/run_pipeline.py --data-dir ../viz/CSV \
+python3 scripts/run_pipeline.py --data-dir data/CSV \
     --classes DDoS-TCP_Flood,Mirai-udpplain --limit 5 --samples-per-class 5
 ```
 
