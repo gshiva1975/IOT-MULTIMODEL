@@ -1,36 +1,40 @@
 === Claude classification accuracy by condition (Wilson 95% CI) ===
-   cve_text_grounded: 100.0% [83.9-100.0%] (n=20)
-               naive: 100.0% [83.9-100.0%] (n=20)
-        rag_grounded: 100.0% [83.9-100.0%] (n=20)
+   cve_text_grounded: 100.0% [86.7-100.0%] (n=25)
+               naive: 100.0% [86.7-100.0%] (n=25)
+        rag_grounded: 100.0% [86.7-100.0%] (n=25)
 
 === Citation quality by condition (counts, and 95% CI on 'real-and-correct' rate among attack samples) ===
 
   cve_text_grounded:
   citation_grade
-  real-but-generic         8
-  real-and-correct         6
-  n/a-benign               5
-  real-but-wrong-family    1
+  real-but-generic                                                                              8
+  real-and-correct                                                                              8
+  n/a-benign                                                                                    5
+  UNVERIFIED (not yet checked against MITRE/NVD -- verify manually before citing in a paper)    3
+  real-but-wrong-family                                                                         1
   Name: count, dtype: int64
-  -> real-and-correct rate among attack samples: 40.0% [19.8-64.3%] (n=15)
+  -> real-and-correct rate among attack samples: 40.0% [21.9-61.3%] (n=20)
+  -> WARNING: 3 citation(s) reference an ID not in the verified corpus -- check these against capec.mitre.org/nvd.nist.gov before treating them as fabricated OR as correct.
 
   naive:
   citation_grade
-  real-and-correct         6
-  real-but-generic         5
-  n/a-benign               5
-  real-but-wrong-family    4
+  real-and-correct                                                                              9
+  real-but-generic                                                                              5
+  n/a-benign                                                                                    5
+  real-but-wrong-family                                                                         4
+  UNVERIFIED (not yet checked against MITRE/NVD -- verify manually before citing in a paper)    2
   Name: count, dtype: int64
-  -> real-and-correct rate among attack samples: 40.0% [19.8-64.3%] (n=15)
+  -> real-and-correct rate among attack samples: 45.0% [25.8-65.8%] (n=20)
+  -> WARNING: 2 citation(s) reference an ID not in the verified corpus -- check these against capec.mitre.org/nvd.nist.gov before treating them as fabricated OR as correct.
 
   rag_grounded:
   citation_grade
-  real-and-correct         10
+  real-and-correct         15
   n/a-benign                5
   real-but-wrong-family     5
   Name: count, dtype: int64
-  -> real-and-correct rate among attack samples: 66.7% [41.7-84.8%] (n=15)
+  -> real-and-correct rate among attack samples: 75.0% [53.1-88.8%] (n=20)
 
 === Non-LLM baseline detectors (Wilson 95% CI on recall) ===
-   Rolling z-score: acc=0.50 precision=1.00 recall=33.3% [15.2-58.3%] (n=15) f1=0.50 (TP=5 FP=0 FN=10 TN=5)
-  Isolation Forest: acc=0.80 precision=1.00 recall=73.3% [48.0-89.1%] (n=15) f1=0.85 (TP=11 FP=0 FN=4 TN=5)
+   Rolling z-score: acc=0.40 precision=1.00 recall=25.0% [11.2-46.9%] (n=20) f1=0.40 (TP=5 FP=0 FN=15 TN=5)
+  Isolation Forest: acc=0.76 precision=1.00 recall=70.0% [48.1-85.5%] (n=20) f1=0.82 (TP=14 FP=0 FN=6 TN=5)
