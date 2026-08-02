@@ -57,6 +57,78 @@ that costs at different scales). `--samples-per-class` controls how many images 
 actually get *sent to Claude* (the part that costs money) — set them equal, as above, to
 avoid rendering images that never get classified.
 
+## Setting up on a new machine
+
+Full checklist for moving this project to a different Mac (or any machine) from
+scratch:
+
+**1. Prerequisites.** Python 3.9+ and git:
+
+```bash
+python3 --version
+git --version
+```
+
+If either's missing: `brew install python3 git`, or `xcode-select --install` for the
+Xcode Command Line Tools.
+
+**2. Clone the repo.**
+
+```bash
+git clone git@github.com:gshiva1975/IOT-MULTIMODEL.git
+cd IOT-MULTIMODEL/networksecurity
+```
+
+Use the HTTPS URL instead (`https://github.com/gshiva1975/IOT-MULTIMODEL.git`) if SSH
+keys aren't set up on this machine yet.
+
+**3. Run the deploy script.**
+
+```bash
+./deploy.sh
+```
+
+Creates a fresh `venv/`, installs `requirements.txt`, and verifies the install. Should
+complete with no manual steps.
+
+**4. Get the dataset onto this machine.** `data/CSV/` is gitignored on purpose (a
+multi-GB dataset doesn't belong in git — see "Known simplifications" below), so cloning
+the repo brings over code only, not data. Copy `data/CSV/` over separately — external
+drive, cloud sync, AirDrop from another Mac, or a fresh download of the CIC-IoT-2023 CSV
+export — so the layout ends up as `networksecurity/data/CSV/<class_name>/*.pcap.csv`.
+
+**5. Set your API key.**
+
+```bash
+source venv/bin/activate
+export ANTHROPIC_API_KEY=sk-ant-...
+```
+
+or copy `.env.example` to `.env` and fill it in — `deploy.sh` and both scripts pick it
+up from there automatically.
+
+**6. Verify everything's wired up, free of charge.**
+
+```bash
+python3 scripts/run_pipeline.py --data-dir data/CSV --list-classes
+python3 -m pytest tests/ -v
+```
+
+First command should discover your classes with zero API cost; second should show all
+24 tests passing with no API key needed.
+
+**7. Run a cheap pilot to confirm the API key actually works end to end.**
+
+```bash
+python3 scripts/run_pipeline.py --data-dir data/CSV --classes DDoS-TCP_Flood --limit 2 --samples-per-class 2
+```
+
+~6 API calls, a few cents — confirms image rendering → API call → parsing → grading all
+work on this machine before running anything larger.
+
+Alternatively, skip steps 1-3 entirely and use Docker (see "Docker" below) — no local
+Python/venv setup needed, just Docker Desktop.
+
 ## Data layout
 
 ```
