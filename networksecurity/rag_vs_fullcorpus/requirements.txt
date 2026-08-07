@@ -1,0 +1,7 @@
+scikit-learn
+pandas
+matplotlib
+requests
+# Optional, for a real dense embedding model instead of TF-IDF.
+# Uncomment and install if you want --embedder sentence-transformers:
+# sentence-transformers

@@ -1,0 +1,7 @@
+strategy,embedder,corpus_size,k,mean_tokens,mean_cost_usd,mean_latency_ms,recall_at_k,index_build_time_s,n_queries_evaluated
+rag,sentence-transformers,784,1,128.4,0.000385,5.1591,0.2667,1.7551,45
+rag,sentence-transformers,784,3,380.9,0.001143,4.9882,0.5333,1.903,45
+rag,sentence-transformers,784,5,595.6,0.001787,5.7167,0.7333,1.8518,45
+rag,sentence-transformers,784,10,1160.2,0.003481,5.1765,0.8667,1.723,45
+rag,sentence-transformers,784,20,2150.2,0.006451,5.1013,0.9333,1.9508,45
+rag,sentence-transformers,784,50,5393,0.016179,5.3012,1.0,1.9652,45

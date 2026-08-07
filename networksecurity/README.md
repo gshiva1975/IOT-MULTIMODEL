@@ -18,8 +18,10 @@ this whole project exists to catch.
 
 ## What actually calls the API
 
-Only one file: `src/networksecurity/claude_client.py`, invoked via
-`scripts/run_pipeline.py`. Everything else — the corpus, prompt construction, citation
+Two files, and only two: `src/networksecurity/claude_client.py` (invoked via
+`scripts/run_pipeline.py`) and `src/networksecurity/openai_client.py` (invoked via
+`scripts/run_pipeline_gpt4o.py`, optional, for a cross-model comparison — see "Cross-model
+comparison (GPT-4o)" below). Everything else — the corpus, prompt construction, citation
 grading, chart generation — is pure, network-free Python, which is deliberate: it makes
 the rest of the codebase unit-testable without an API key, and makes it obvious where
 real money gets spent.
@@ -162,12 +164,14 @@ networksecurity/
     data_loader.py                 -- discover classes/files from a data directory
     visualization.py               -- render traffic windows into 4-panel PNG images
     prompting.py                   -- the 3 prompting conditions + response parsing
-    claude_client.py               -- THE ONLY MODULE THAT CALLS THE API
+    claude_client.py               -- calls the Anthropic API (Claude)
+    openai_client.py               -- calls the OpenAI API (GPT-4o), for cross-model comparison
     baselines.py                   -- non-LLM comparison detectors (z-score, Isolation Forest)
     grading.py                     -- Wilson 95% CI + citation-quality grading
     reporting.py                   -- per-condition chart + input-export generation
   scripts/
-    run_pipeline.py                -- CLI: full experiment (costs money)
+    run_pipeline.py                -- CLI: full Claude experiment (costs money)
+    run_pipeline_gpt4o.py          -- CLI: same experiment against GPT-4o (costs money, optional)
     generate_rag_report.py         -- CLI: chart + export one condition (free)
   tests/                           -- unit tests, no API key or network needed
   data/                            -- put your --data-dir here (gitignored)
@@ -248,6 +252,35 @@ docker run --rm \
   networksecurity \
   python3 scripts/run_pipeline.py --data-dir data/CSV --limit 5 --samples-per-class 5
 ```
+
+## Cross-model comparison (GPT-4o)
+
+`scripts/run_pipeline_gpt4o.py` runs the identical 3-condition experiment against GPT-4o instead of
+Claude. By default it reuses the manifest `run_pipeline.py` already produced (`results/viz/manifest.csv`)
+-- i.e. the exact same rendered traffic images Claude was shown -- so the two models' results are
+directly comparable rather than drawn from a fresh independent sample.
+
+```bash
+pip install openai
+export OPENAI_API_KEY=sk-...
+
+# 1. Always sanity-check with ONE call first -- confirms the API key, billing, and model
+#    access all work before you spend real money:
+python3 scripts/run_pipeline_gpt4o.py --probe
+
+# 2. Match whatever --limit you used for the Claude run, e.g. 5/class:
+python3 scripts/run_pipeline_gpt4o.py --limit 5
+
+# Cheaper pilot with gpt-4o-mini instead of gpt-4o:
+python3 scripts/run_pipeline_gpt4o.py --limit 5 --model gpt-4o-mini
+```
+
+Results land in `harness_results_gpt4o.csv` and `summary_gpt4o.txt`, alongside (never overwriting)
+the Claude run's `harness_results.csv` -- both files share identical column names/semantics, so any
+grading or reporting code that works on one works on the other. Same resume behavior as
+`run_pipeline.py`: an interrupted run picks back up without re-paying for completed calls. This script
+does not re-run the non-LLM baselines (z-score / Isolation Forest) -- those are model-independent and
+already computed by `run_pipeline.py`.
 
 ## Resume behavior
 

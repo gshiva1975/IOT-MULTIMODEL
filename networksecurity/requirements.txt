@@ -3,3 +3,7 @@ pandas>=2.0.0
 numpy>=1.24.0
 matplotlib>=3.7.0
 scikit-learn>=1.3.0
+
+# Optional -- only needed if you run scripts/run_pipeline_gpt4o.py for a
+# cross-model comparison. Not required for the core Claude pipeline.
+openai>=1.40.0

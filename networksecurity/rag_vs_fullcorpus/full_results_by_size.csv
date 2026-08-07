@@ -1,0 +1,13 @@
+strategy,embedder,corpus_size,k,mean_tokens,mean_cost_usd,mean_latency_ms,recall_at_k,index_build_time_s,n_queries_evaluated
+full_corpus,n/a,15,15,1493.3,0.00448,0.0006,0.0,0.0,45
+rag,sentence-transformers,15,5,514.5,0.001544,7.9046,0.0,1.2465,45
+full_corpus,n/a,50,50,4675.5,0.014026,0.0077,0.0667,0.0,45
+rag,sentence-transformers,50,5,492,0.001476,5.7021,0.0667,0.1879,45
+full_corpus,n/a,100,100,9518.1,0.028554,0.0191,0.3333,0.0,45
+rag,sentence-transformers,100,5,535.2,0.001606,5.096,0.3333,0.312,45
+full_corpus,n/a,250,250,23441.3,0.070324,0.0332,0.4,0.0,45
+rag,sentence-transformers,250,5,522.1,0.001566,5.0975,0.4,0.6568,45
+full_corpus,n/a,500,500,47241.5,0.141724,0.0764,0.6,0.0,45
+rag,sentence-transformers,500,5,608.9,0.001827,4.942,0.4667,1.2177,45
+full_corpus,n/a,784,784,75057.5,0.225172,0.132,1.0,0.0,45
+rag,sentence-transformers,784,5,595.6,0.001787,5.0271,0.7333,1.8335,45

@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "CVE-2024-45163",
+    "kind": "cve",
+    "name": "The Mirai botnet through 2024-08-19 mishandles simultaneous TCP connections to the CNC (command and control) server",
+    "attack_families": [
+      "keyword:Mirai"
+    ],
+    "description": "The Mirai botnet through 2024-08-19 mishandles simultaneous TCP connections to the CNC (command and control) server. Unauthenticated sessions remain open, causing resource consumption. For example, an attacker can send a recognized username (such as root), or can send arbitrary data.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2024-45163"
+  },
+  {
+    "id": "CVE-1999-0508",
+    "kind": "cve",
+    "name": "An account on a router, firewall, or other network device has a default, null, blank, or missing password",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "An account on a router, firewall, or other network device has a default, null, blank, or missing password.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-1999-0508"
+  },
+  {
+    "id": "CVE-2001-1538",
+    "kind": "cve",
+    "name": "SpeedXess HA-120 DSL router has a default administrative password of \"speedxess\", which allows remote attackers to gain ",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "SpeedXess HA-120 DSL router has a default administrative password of \"speedxess\", which allows remote attackers to gain access.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2001-1538"
+  },
+  {
+    "id": "CVE-2002-2020",
+    "kind": "cve",
+    "name": "Netgear RP114 Cable/DSL Web Safe Router Firmware 3",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Netgear RP114 Cable/DSL Web Safe Router Firmware 3.26 uses a default administrator password and accepts admin logins on the external interface, which allows remote attackers to gain privileges if the password is not changed.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2002-2020"
+  },
+  {
+    "id": "CVE-2003-1515",
+    "kind": "cve",
+    "name": "Origo ASR-8100 ADSL Router 3",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Origo ASR-8100 ADSL Router 3.21 has an administration service running on port 254 that does not require a password, which allows remote attackers to cause a denial of service by restoring the factory defaults.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2003-1515"
+  },
+  {
+    "id": "CVE-2004-0616",
+    "kind": "cve",
+    "name": "The BT Voyager 2000 Wireless ADSL Router has a default public SNMP community name, which allows remote attackers to obta",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The BT Voyager 2000 Wireless ADSL Router has a default public SNMP community name, which allows remote attackers to obtain sensitive information such as the password, which is stored in plaintext.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2004-0616"
+  },
+  {
+    "id": "CVE-2004-1591",
+    "kind": "cve",
+    "name": "The web interface for Micronet Wireless Broadband Router SP916BM running firmware before 1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The web interface for Micronet Wireless Broadband Router SP916BM running firmware before 1.9 08/04/2004 resets the password to the default password when the router is shut off, which could allow remote attackers to gain access.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2004-1591"
+  },
+  {
+    "id": "CVE-2004-1791",
+    "kind": "cve",
+    "name": "The web management interface in Edimax AR-6004 ADSL Routers uses a default administrator name and password, which also a",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The web management interface in Edimax AR-6004 ADSL Routers uses a default administrator name and password, which also appear as the default login text for the management interface, which allows remote attackers to gain access.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2004-1791"
+  },
+  {
+    "id": "CVE-2005-2584",
+    "kind": "cve",
+    "name": "The web administration interface in Mentor ADSL-FR4II router running firmware 2",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The web administration interface in Mentor ADSL-FR4II router running firmware 2.00.0111 does not set a default password, which allows local users to gain access.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2005-2584"
+  },
+  {
+    "id": "CVE-2006-0834",
+    "kind": "cve",
+    "name": "Uniden UIP1868P VoIP Telephone and Router has a default password of admin for the web-based configuration utility, which",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Uniden UIP1868P VoIP Telephone and Router has a default password of admin for the web-based configuration utility, which allows remote attackers to obtain sensitive information on the device such as telephone numbers called, and possibly connect to other hosts.  NOTE: it is possible that this password was configured by a reseller, not the original vendor; if so, then this is not a vulnerability in the product.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2006-0834"
+  },
+  {
+    "id": "CVE-2007-4388",
+    "kind": "cve",
+    "name": "2wire 1701HG and 2071 Gateway routers, with 5",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "2wire 1701HG and 2071 Gateway routers, with 5.29.51 and possibly 3.17.5 software, have a blank password by default.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2007-4388"
+  },
+  {
+    "id": "CVE-2008-1256",
+    "kind": "cve",
+    "name": "The ZyXEL P-660HW series router has \"admin\" as its default password, which allows remote attackers to gain administrativ",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The ZyXEL P-660HW series router has \"admin\" as its default password, which allows remote attackers to gain administrative access.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2008-1256"
+  },
+  {
+    "id": "CVE-2008-1264",
+    "kind": "cve",
+    "name": "The Linksys WRT54G router has \"admin\" as its default FTP password, which allows remote attackers to access sensitive fil",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The Linksys WRT54G router has \"admin\" as its default FTP password, which allows remote attackers to access sensitive files including nvram.cfg, a file that lists all HTML documents, and an ELF executable file.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2008-1264"
+  },
+  {
+    "id": "CVE-2008-1522",
+    "kind": "cve",
+    "name": "ZyXEL Prestige routers, including P-660 and P-661 models with firmware 3",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "ZyXEL Prestige routers, including P-660 and P-661 models with firmware 3.40(AGD.2) through 3.40(AHQ.3), have (1) \"user\" as their default password for the \"user\" account and (2) \"1234\" as their default password for the \"admin\" account, which makes it easier for remote attackers to obtain access.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2008-1522"
+  },
+  {
+    "id": "CVE-2008-1524",
+    "kind": "cve",
+    "name": "The SNMP service on ZyXEL Prestige routers, including P-660 and P-661 models with firmware 3",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The SNMP service on ZyXEL Prestige routers, including P-660 and P-661 models with firmware 3.40(AGD.2) through 3.40(AHQ.3), has \"public\" as its default community for both (1) read and (2) write operations, which allows remote attackers to perform administrative actions via SNMP, as demonstrated by reading the Dynamic DNS service password or inserting an XSS sequence into the system.sysName.0 variable, which is displayed on the System Status page.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2008-1524"
+  },
+  {
+    "id": "CVE-2008-5041",
+    "kind": "cve",
+    "name": "Sweex RO002 Router with firmware Ts03-072 has \"rdc123\" as its default password for the \"rdc123\" account, which makes it ",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Sweex RO002 Router with firmware Ts03-072 has \"rdc123\" as its default password for the \"rdc123\" account, which makes it easier for remote attackers to obtain access.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2008-5041"
+  },
+  {
+    "id": "CVE-2009-0620",
+    "kind": "cve",
+    "name": "Cisco ACE Application Control Engine Module for Catalyst 6500 Switches and 7600 Routers before A2(1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Cisco ACE Application Control Engine Module for Catalyst 6500 Switches and 7600 Routers before A2(1.1) uses default (1) usernames and (2) passwords for (a) the administrator and (b) web management, which makes it easier for remote attackers to perform configuration changes or obtain operating-system access.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2009-0620"
+  },
+  {
+    "id": "CVE-2009-0742",
+    "kind": "cve",
+    "name": "The username command in Cisco ACE Application Control Engine Module for Catalyst 6500 Switches and 7600 Routers and Cisc",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The username command in Cisco ACE Application Control Engine Module for Catalyst 6500 Switches and 7600 Routers and Cisco ACE 4710 Application Control Engine Appliance stores a cleartext password by default, which allows context-dependent attackers to obtain sensitive information.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2009-0742"
+  },
+  {
+    "id": "CVE-2008-6588",
+    "kind": "cve",
+    "name": "Aztech ADSL2/2+ 4-port router has a default \"isp\" account with a default \"isp\" password, which allows remote attackers t",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Aztech ADSL2/2+ 4-port router has a default \"isp\" account with a default \"isp\" password, which allows remote attackers to obtain access if this default is not changed.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2008-6588"
+  },
+  {
+    "id": "CVE-2014-4018",
+    "kind": "cve",
+    "name": "The ZTE ZXV10 W300 router with firmware W300V1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The ZTE ZXV10 W300 router with firmware W300V1.0.0a_ZRD_LK has a default password of admin for the admin account, which makes it easier for remote attackers to obtain access via unspecified vectors.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2014-4018"
+  },
+  {
+    "id": "CVE-2018-10532",
+    "kind": "cve",
+    "name": "An issue was discovered on EE 4GEE HH70VB-2BE8GB3 HH70_E1_02",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "An issue was discovered on EE 4GEE HH70VB-2BE8GB3 HH70_E1_02.00_19 devices. Hardcoded root SSH credentials were discovered to be stored within the \"core_app\" binary utilised by the EE router for networking services. An attacker with knowledge of the default password (oelinux123) could login to the router via SSH as the root user, which could allow for the loss of confidentiality, integrity, and availability of the system. This would also allow for the bypass of the \"AP Isolation\" mode that is supported by the router, as well as the settings for multiple Wireless networks, which a user may use for guest clients.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-10532"
+  },
+  {
+    "id": "CVE-2017-18371",
+    "kind": "cve",
+    "name": "The ZyXEL P660HN-T1A v2 TCLinux Fw #7",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The ZyXEL P660HN-T1A v2 TCLinux Fw #7.3.37.6 router distributed by TrueOnline has three user accounts with default passwords, including two hardcoded service accounts: one with the username true and password true, and another with the username supervisor and password zyad1234. These accounts can be used to login to the web interface, exploit authenticated command injections, and change router settings for malicious purposes.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-18371"
+  },
+  {
+    "id": "CVE-2017-18373",
+    "kind": "cve",
+    "name": "The Billion 5200W-T TCLinux Fw $7",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The Billion 5200W-T TCLinux Fw $7.3.8.0 v008 130603 router distributed by TrueOnline has three user accounts with default passwords, including two hardcoded service accounts: one with the username true and password true, and another with the username user3 and and a long password consisting of a repetition of the string 0123456789. These accounts can be used to login to the web interface, exploit authenticated command injections, and change router settings for malicious purposes.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-18373"
+  },
+  {
+    "id": "CVE-2017-18374",
+    "kind": "cve",
+    "name": "The ZyXEL P660HN-T1A v1 TCLinux Fw $7",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The ZyXEL P660HN-T1A v1 TCLinux Fw $7.3.15.0 v001 / 3.40(ULM.0)b31 router distributed by TrueOnline has two user accounts with default passwords, including a hardcoded service account with the username true and password true. These accounts can be used to login to the web interface, exploit authenticated command injections and change router settings for malicious purposes.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-18374"
+  },
+  {
+    "id": "CVE-2019-7579",
+    "kind": "cve",
+    "name": "An issue was discovered on Linksys WRT1900ACS 1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "An issue was discovered on Linksys WRT1900ACS 1.0.3.187766 devices. An ability exists for an unauthenticated user to browse a confidential ui/1.0.99.187766/dynamic/js/setup.js.localized file on the router's webserver, allowing for an attacker to identify possible passwords that the system uses to set the default guest network password. An attacker can use this list of 30 words along with a random 2 digit number to brute force their access onto a router's guest network.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2019-7579"
+  },
+  {
+    "id": "CVE-2020-5721",
+    "kind": "cve",
+    "name": "MikroTik WinBox 3",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "MikroTik WinBox 3.22 and below stores the user's cleartext password in the settings.cfg.viw configuration file when the Keep Password field is set and no Master Password is set. Keep Password is set by default and, by default Master Password is not set. An attacker with access to the configuration file can extract a username and password to gain access to the router.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-5721"
+  },
+  {
+    "id": "CVE-2020-3330",
+    "kind": "cve",
+    "name": "A vulnerability in the Telnet service of Cisco Small Business RV110W Wireless-N VPN Firewall Routers could allow an unau",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "A vulnerability in the Telnet service of Cisco Small Business RV110W Wireless-N VPN Firewall Routers could allow an unauthenticated, remote attacker to take full control of the device with a high-privileged account. The vulnerability exists because a system account has a default and static password. An attacker could exploit this vulnerability by using this default account to connect to the affected system. A successful exploit could allow the attacker to gain full control of an affected device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-3330"
+  },
+  {
+    "id": "CVE-2020-27872",
+    "kind": "cve",
+    "name": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R7450",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R7450 1.2.0.62_1.0.1 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the mini_httpd service, which listens on TCP port 80 by default. The issue results from improper state tracking in the password recovery process. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root. Was ZDI-CAN-11365.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-27872"
+  },
+  {
+    "id": "CVE-2021-34203",
+    "kind": "cve",
+    "name": "D-Link DIR-2640-US 1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "D-Link DIR-2640-US 1.01B04 is vulnerable to Incorrect Access Control. Router ac2600 (dir-2640-us), when setting PPPoE, will start quagga process in the way of whole network monitoring, and this function uses the original default password and port. An attacker can easily use telnet to log in, modify routing information, monitor the traffic of all devices under the router, hijack DNS and phishing attacks. In addition, this interface is likely to be questioned by customers as a backdoor, because the interface should not be exposed.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-34203"
+  },
+  {
+    "id": "CVE-2021-43282",
+    "kind": "cve",
+    "name": "An issue was discovered on Victure WR1200 devices through 1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "An issue was discovered on Victure WR1200 devices through 1.0.3. The default Wi-Fi WPA2 key is advertised to anyone within Wi-Fi range through the router's MAC address. The device default Wi-Fi password corresponds to the last 4 bytes of the MAC address of its 2.4 GHz network interface controller (NIC). An attacker within scanning range of the Wi-Fi network can thus scan for Wi-Fi networks to obtain the default key.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-43282"
+  },
+  {
+    "id": "CVE-2024-41690",
+    "kind": "cve",
+    "name": "This vulnerability exists in SyroTech SY-GPON-1110-WDONT Router due to storing of default username and password credenti",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "This vulnerability exists in SyroTech SY-GPON-1110-WDONT Router due to storing of default username and password credentials in plaintext within the router's firmware/ database. An attacker with physical access could exploit this by extracting the firmware and reverse engineer the binary data to access the plaintext default credentials on the vulnerable system.\n\nSuccessful exploitation of this vulnerability could allow the attacker to gain unauthorized access to the targeted system.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2024-41690"
+  },
+  {
+    "id": "CVE-2024-50357",
+    "kind": "cve",
+    "name": "FutureNet NXR series routers provided by Century Systems Co",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "FutureNet NXR series routers provided by Century Systems Co., Ltd. have REST-APIs, which are configured as disabled in the initial (factory default) configuration. But, REST-APIs are unexpectedly enabled when the affected product is powered up, provided either http-server (GUI) or Web authentication is enabled. The factory default configuration makes http-server (GUI) enabled, which means REST-APIs are also enabled. The username and the password for REST-APIs are configured in the factory default configuration. As a result, an attacker may obtain and/or alter the affected product's settings via REST-APIs.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2024-50357"
+  },
+  {
+    "id": "CVE-2024-53938",
+    "kind": "cve",
+    "name": "An issue was discovered in Victure RX1800 WiFi 6 Router (software EN_V1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "An issue was discovered in Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. The TELNET service is enabled by default and exposed over the LAN. The root account is accessible without a password, allowing attackers to achieve full control over the router remotely without any authentication.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2024-53938"
+  },
+  {
+    "id": "CVE-2024-53937",
+    "kind": "cve",
+    "name": "An issue was discovered on Victure RX1800 WiFi 6 Router (software EN_V1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "An issue was discovered on Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. The TELNET service is enabled by default with admin/admin as default credentials and is exposed over the LAN. The allows attackers to execute arbitrary commands with root-level permissions. Device setup does not require this password to be changed during setup in order to utilize the device. (However, the TELNET password is dictated by the current GUI password.)",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2024-53937"
+  },
+  {
+    "id": "CVE-2025-22936",
+    "kind": "cve",
+    "name": "An issue in Smartcom Bulgaria AD Smartcom Ralink CPE/WiFi router SAM-4G1G-TT-W-VC, SAM-4F1F-TT-W-A1 allows a remote atta",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "An issue in Smartcom Bulgaria AD Smartcom Ralink CPE/WiFi router SAM-4G1G-TT-W-VC, SAM-4F1F-TT-W-A1 allows a remote attacker to obtain sensitive information via the Weak default WiFi password generation algorithm in WiFi routers.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-22936"
+  },
+  {
+    "id": "CVE-2022-41545",
+    "kind": "cve",
+    "name": "The administrative web interface of a Netgear C7800 Router running firmware version 6",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "The administrative web interface of a Netgear C7800 Router running firmware version 6.01.07 (and possibly others) authenticates users via basic authentication, with an HTTP header containing a base64 value of the plaintext username and password. Because the web server also does not utilize transport security by default, this renders the administrative credentials vulnerable to eavesdropping by an adversary during every authenticated request made by a client to the router over a WLAN, or a LAN, should the adversary be able to perform a man-in-the-middle attack.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2022-41545"
+  },
+  {
+    "id": "CVE-2025-57579",
+    "kind": "cve",
+    "name": "An issue in TOTOLINK Wi-Fi 6 Router Series Device X2000R-Gh-V2",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "An issue in TOTOLINK Wi-Fi 6 Router Series Device X2000R-Gh-V2.0.0 allows a remote attacker to execute arbitrary code via the default password",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-57579"
+  },
+  {
+    "id": "CVE-2025-63353",
+    "kind": "cve",
+    "name": "A vulnerability in FiberHome GPON ONU HG6145F1 RP4423 allows the device's factory default Wi-Fi password (WPA/WPA2 pre-s",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "A vulnerability in FiberHome GPON ONU HG6145F1 RP4423 allows the device's factory default Wi-Fi password (WPA/WPA2 pre-shared key) to be predicted from the SSID. The device generates default passwords using a deterministic algorithm that derives the router passphrase from the SSID, enabling an attacker who can observe the SSID to predict the default password without authentication or user interaction.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-63353"
+  },
+  {
+    "id": "CVE-2025-68716",
+    "kind": "cve",
+    "name": "KAYSUS KS-WR3600 routers with firmware 1",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "KAYSUS KS-WR3600 routers with firmware 1.0.5.9.1 enable the SSH service enabled by default on the LAN interface. The root account is configured with no password, and administrators cannot disable SSH or enforce authentication via the CLI or web GUI. This allows any LAN-adjacent attacker to trivially gain root shell access and execute arbitrary commands with full privileges.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-68716"
+  },
+  {
+    "id": "CVE-2026-34472",
+    "kind": "cve",
+    "name": "Unauthenticated credential disclosure in the wizard interface in ZTE ZXHN H188A V6",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Unauthenticated credential disclosure in the wizard interface in ZTE ZXHN H188A V6.0.10P2_TE and V6.0.10P3N3_TE allows unauthenticated attackers on the local network to retrieve sensitive credentials from the router's web management interface, including the default administrator password, WLAN PSK, and PPPoE credentials. In some observed cases, configuration changes may also be performed without authentication.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-34472"
+  },
+  {
+    "id": "CVE-2020-37220",
+    "kind": "cve",
+    "name": "Huawei HG630 V2 router contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain a",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Huawei HG630 V2 router contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain administrative access by retrieving the device serial number. Attackers can query the /api/system/deviceinfo endpoint without authentication to extract the SerialNumber field, then use the last 8 characters as the default password to log in to the router.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-37220"
+  },
+  {
+    "id": "CVE-2026-4377",
+    "kind": "cve",
+    "name": "Dlink\u00a0DWR-X1820 router uses weak default password generated from its IMEI number and does not require users to change it",
+    "attack_families": [
+      "keyword:default password router"
+    ],
+    "description": "Dlink\u00a0DWR-X1820 router uses weak default password generated from its IMEI number and does not require users to change it. An attacker who knows how passwords are generated can easily crack the default password if they have the device IMEI number.\n\nThis issue was fixed in version\u00a01.00B16CP.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-4377"
+  },
+  {
+    "id": "CVE-2007-2386",
+    "kind": "cve",
+    "name": "Buffer overflow in mDNSResponder in Apple Mac OS X 10",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Buffer overflow in mDNSResponder in Apple Mac OS X 10.4 up to 10.4.9 allows remote attackers to cause a denial of service (application termination) or execute arbitrary code via a crafted UPnP Internet Gateway Device (IGD) packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2007-2386"
+  },
+  {
+    "id": "CVE-2007-2390",
+    "kind": "cve",
+    "name": "Buffer overflow in iChat in Apple Mac OS X 10",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Buffer overflow in iChat in Apple Mac OS X 10.3.9 and 10.4.9 allows remote attackers to cause a denial of service (application termination) and possibly execute arbitrary code via a crafted UPnP Internet Gateway Device (IGD) packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2007-2390"
+  },
+  {
+    "id": "CVE-2007-3744",
+    "kind": "cve",
+    "name": "Heap-based buffer overflow in the UPnP IGD (Internet Gateway Device Standardized Device Control Protocol) implementation",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Heap-based buffer overflow in the UPnP IGD (Internet Gateway Device Standardized Device Control Protocol) implementation in mDNSResponder on Apple Mac OS X 10.4.10 before 20070731 allows network-adjacent remote attackers to execute arbitrary code via a crafted packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2007-3744"
+  },
+  {
+    "id": "CVE-2007-3748",
+    "kind": "cve",
+    "name": "Buffer overflow in the UPnP IGD (Internet Gateway Device Standardized Device Control Protocol) implementation in iChat o",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Buffer overflow in the UPnP IGD (Internet Gateway Device Standardized Device Control Protocol) implementation in iChat on Apple Mac OS X 10.3.9 and 10.4.10 allows network-adjacent remote attackers to execute arbitrary code via a crafted packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2007-3748"
+  },
+  {
+    "id": "CVE-2012-5958",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a UDP packet with a crafted string that is not properly handled after a certain pointer subtraction.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5958"
+  },
+  {
+    "id": "CVE-2012-5959",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a long UDN (aka uuid) field within a string that contains a :: (colon colon) in a UDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5959"
+  },
+  {
+    "id": "CVE-2012-5960",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) before 1.6.18 allows remote attackers to execute arbitrary code via a long UDN (aka upnp:rootdevice) field in a UDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5960"
+  },
+  {
+    "id": "CVE-2012-5961",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) 1.3.1 allows remote attackers to execute arbitrary code via a long UDN (aka device) field in a UDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5961"
+  },
+  {
+    "id": "CVE-2012-5962",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) 1.3.1 allows remote attackers to execute arbitrary code via a long DeviceType (aka urn) field in a UDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5962"
+  },
+  {
+    "id": "CVE-2012-5963",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) 1.3.1 allows remote attackers to execute arbitrary code via a long UDN (aka uuid) field within a string that lacks a :: (colon colon) in a UDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5963"
+  },
+  {
+    "id": "CVE-2012-5964",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) 1.3.1 allows remote attackers to execute arbitrary code via a long ServiceType (aka urn service) field in a UDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5964"
+  },
+  {
+    "id": "CVE-2012-5965",
+    "kind": "cve",
+    "name": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Stack-based buffer overflow in the unique_service_name function in ssdp/ssdp_server.c in the SSDP parser in the portable SDK for UPnP Devices (aka libupnp, formerly the Intel SDK for UPnP devices) 1.3.1 allows remote attackers to execute arbitrary code via a long DeviceType (aka urn device) field in a UDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2012-5965"
+  },
+  {
+    "id": "CVE-2014-0355",
+    "kind": "cve",
+    "name": "Multiple stack-based buffer overflows on the ZyXEL Wireless N300 NetUSB NBG-419N router with firmware 1",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Multiple stack-based buffer overflows on the ZyXEL Wireless N300 NetUSB NBG-419N router with firmware 1.00(BFQ.6)C0 allow man-in-the-middle attackers to execute arbitrary code via (1) a long temp attribute in a yweather:condition element in a forecastrss file that is processed by the checkWeather function; the (2) WeatherCity or (3) WeatherDegree variable to the detectWeather function; unspecified input to the (4) UpnpAddRunRLQoS, (5) UpnpDeleteRunRLQoS, or (6) UpnpDeletePortCheckType function; or (7) the SET COUNTRY udps command.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2014-0355"
+  },
+  {
+    "id": "CVE-2015-4141",
+    "kind": "cve",
+    "name": "The WPS UPnP function in hostapd, when using WPS AP, and wpa_supplicant, when using WPS external registrar (ER), 0",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "The WPS UPnP function in hostapd, when using WPS AP, and wpa_supplicant, when using WPS external registrar (ER), 0.7.0 through 2.4 allows remote attackers to cause a denial of service (crash) via a negative chunk length, which triggers an out-of-bounds read or heap-based buffer overflow.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2015-4141"
+  },
+  {
+    "id": "CVE-2015-6031",
+    "kind": "cve",
+    "name": "Buffer overflow in the IGDstartelt function in igd_desc_parse",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Buffer overflow in the IGDstartelt function in igd_desc_parse.c in the MiniUPnP client (aka MiniUPnPc) before 1.9.20150917 allows remote UPNP servers to cause a denial of service (application crash) and possibly execute arbitrary code via an \"oversized\" XML element name.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2015-6031"
+  },
+  {
+    "id": "CVE-2016-8863",
+    "kind": "cve",
+    "name": "Heap-based buffer overflow in the create_url_list function in gena/gena_device",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Heap-based buffer overflow in the create_url_list function in gena/gena_device.c in Portable UPnP SDK (aka libupnp) before 1.6.21 allows remote attackers to cause a denial of service (crash) or possibly execute arbitrary code via a valid URI followed by an invalid one in the CALLBACK header of an SUBSCRIBE request.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2016-8863"
+  },
+  {
+    "id": "CVE-2017-3882",
+    "kind": "cve",
+    "name": "A vulnerability in the Universal Plug-and-Play (UPnP) implementation in the Cisco CVR100W Wireless-N VPN Router could al",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A vulnerability in the Universal Plug-and-Play (UPnP) implementation in the Cisco CVR100W Wireless-N VPN Router could allow an unauthenticated, Layer 2-adjacent attacker to execute arbitrary code or cause a denial of service (DoS) condition. The remote code execution could occur with root privileges. The vulnerability is due to incomplete range checks of the UPnP input data, which could result in a buffer overflow. An attacker could exploit this vulnerability by sending a malicious request to the UPnP listening port of the targeted device. An exploit could allow the attacker to cause the device to reload or potentially execute arbitrary code with root privileges. This vulnerability affects all firmware releases of the Cisco CVR100W Wireless-N VPN Router prior to Firmware Release 1.0.1.22. Cisco Bug IDs: CSCuz72642.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-3882"
+  },
+  {
+    "id": "CVE-2017-2879",
+    "kind": "cve",
+    "name": "An exploitable buffer overflow vulnerability exists in the UPnP implementation used by the Foscam C1 Indoor HD Camera ru",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "An exploitable buffer overflow vulnerability exists in the UPnP implementation used by the Foscam C1 Indoor HD Camera running application firmware 2.52.2.43. A specially crafted UPnP discovery response can cause a buffer overflow resulting in overwriting arbitrary data. An attacker needs to be in the same subnetwork and reply to a discovery message to trigger this vulnerability.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-2879"
+  },
+  {
+    "id": "CVE-2018-16596",
+    "kind": "cve",
+    "name": "A stack-based buffer overflow in the LAN UPnP service running on UDP port 1900 of Swisscom Internet-Box (2, Standard, an",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A stack-based buffer overflow in the LAN UPnP service running on UDP port 1900 of Swisscom Internet-Box (2, Standard, and Plus) prior to v09.04.00 and Internet-Box light prior to v08.05.02 allows remote code execution. No authentication is required to exploit this vulnerability. Sending a simple UDP packet to port 1900 allows an attacker to execute code on a remote device. However, this is only possible if the attacker is inside the LAN. Because of ASLR, the success rate is not 100% and leads instead to a DoS of the UPnP service. The remaining functionality of the Internet Box is not affected. A reboot of the Internet Box is necessary to attempt the exploit again.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-16596"
+  },
+  {
+    "id": "CVE-2017-9391",
+    "kind": "cve",
+    "name": "An issue was discovered on Vera VeraEdge 1",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "An issue was discovered on Vera VeraEdge 1.7.19 and Veralite 1.7.481 devices. The device provides UPnP services that are available on port 3480 and can also be accessed via port 80 using the url \"/port_3480\". It seems that the UPnP services provide \"request_image\" as one of the service actions for a normal user to retrieve an image from a camera that is controlled by the controller. It seems that the \"URL\" parameter passed in the query string is not sanitized and is stored on the stack which allows an attacker to overflow the buffer. The function \"LU::Generic_IP_Camera_Manager::REQ_Image\" is activated when the lu_request_image is passed as the \"id\" parameter in query string. This function then calls \"LU::Generic_IP_Camera_Manager::GetUrlFromArguments\" and passes a \"pointer\" to the function where it will be allowed to store the value from the URL parameter. This pointer is passed as the second parameter $a2 to the function \"LU::Generic_IP_Camera_Manager::GetUrlFromArguments\". However, neither the callee or the caller in this case performs a simple length check and as a result an attacker who is able to send more than 1336 characters can easily overflow the values stored on the stack including the $RA value and thus execute code on the device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-9391"
+  },
+  {
+    "id": "CVE-2017-9392",
+    "kind": "cve",
+    "name": "An issue was discovered on Vera VeraEdge 1",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "An issue was discovered on Vera VeraEdge 1.7.19 and Veralite 1.7.481 devices. The device provides UPnP services that are available on port 3480 and can also be accessed via port 80 using the url \"/port_3480\". It seems that the UPnP services provide \"request_image\" as one of the service actions for a normal user to retrieve an image from a camera that is controlled by the controller. It seems that the \"res\" (resolution) parameter passed in the query string is not sanitized and is stored on the stack which allows an attacker to overflow the buffer. The function \"LU::Generic_IP_Camera_Manager::REQ_Image\" is activated when the lu_request_image is passed as the \"id\" parameter in the query string. This function then calls \"LU::Generic_IP_Camera_Manager::GetUrlFromArguments\". This function retrieves all the parameters passed in the query string including \"res\" and then uses the value passed in it to fill up buffer using the sprintf function. However, the function in this case lacks a simple length check and as a result an attacker who is able to send more than 184 characters can easily overflow the values stored on the stack including the $RA value and thus execute code on the device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-9392"
+  },
+  {
+    "id": "CVE-2019-14363",
+    "kind": "cve",
+    "name": "A stack-based buffer overflow in the upnpd binary running on NETGEAR WNDR3400v3 routers with firmware version 1",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A stack-based buffer overflow in the upnpd binary running on NETGEAR WNDR3400v3 routers with firmware version 1.0.1.18_1.0.63 allows an attacker to remotely execute arbitrary code via a crafted UPnP SSDP packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2019-14363"
+  },
+  {
+    "id": "CVE-2020-28373",
+    "kind": "cve",
+    "name": "upnpd on certain NETGEAR devices allows remote (LAN) attackers to execute arbitrary code via a stack-based buffer overfl",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "upnpd on certain NETGEAR devices allows remote (LAN) attackers to execute arbitrary code via a stack-based buffer overflow. This affects R6400v2 V1.0.4.102_10.0.75, R6400 V1.0.1.62_1.0.41, R7000P V1.3.2.126_10.1.66, XR300 V1.0.3.50_10.3.36, R8000 V1.0.4.62, R8300 V1.0.2.136, R8500 V1.0.2.136, R7300DST V1.0.0.74, R7850 V1.0.5.64, R7900 V1.0.4.30, RAX20 V1.0.2.64, RAX80 V1.0.3.102, and R6250 V1.0.4.44.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-28373"
+  },
+  {
+    "id": "CVE-2020-28926",
+    "kind": "cve",
+    "name": "ReadyMedia (aka MiniDLNA) before versions 1",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "ReadyMedia (aka MiniDLNA) before versions 1.3.0 allows remote code execution. Sending a malicious UPnP HTTP request to the miniDLNA service using HTTP chunked encoding can lead to a signedness bug resulting in a buffer overflow in calls to memcpy/memmove.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-28926"
+  },
+  {
+    "id": "CVE-2021-27239",
+    "kind": "cve",
+    "name": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R640",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R6400 and R6700 firmware version 1.0.4.98 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the upnpd service, which listens on UDP port 1900 by default. A crafted MX header field in an SSDP message can trigger an overflow of a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Was ZDI-CAN-11851.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-27239"
+  },
+  {
+    "id": "CVE-2021-35392",
+    "kind": "cve",
+    "name": "Realtek Jungle SDK version v2",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Realtek Jungle SDK version v2.x up to v3.4.14B provides a 'WiFi Simple Config' server that implements both UPnP and SSDP protocols. The binary is usually named wscd or mini_upnpd and is the successor to miniigd. The server is vulnerable to a heap buffer overflow that is present due to unsafe crafting of SSDP NOTIFY messages from received M-SEARCH messages ST header.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-35392"
+  },
+  {
+    "id": "CVE-2021-35393",
+    "kind": "cve",
+    "name": "Realtek Jungle SDK version v2",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Realtek Jungle SDK version v2.x up to v3.4.14B provides a 'WiFi Simple Config' server that implements both UPnP and SSDP protocols. The binary is usually named wscd or mini_upnpd and is the successor to miniigd. The server is vulnerable to a stack buffer overflow vulnerability that is present due to unsafe parsing of the UPnP SUBSCRIBE/UNSUBSCRIBE Callback header. Successful exploitation of this vulnerability allows remote unauthenticated attackers to gain arbitrary code execution on the affected device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-35393"
+  },
+  {
+    "id": "CVE-2023-27217",
+    "kind": "cve",
+    "name": "A stack-based buffer overflow in the ChangeFriendlyName() function of Belkin Smart Outlet V2 F7c063 firmware_2",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A stack-based buffer overflow in the ChangeFriendlyName() function of Belkin Smart Outlet V2 F7c063 firmware_2.00.11420.OWRT.PVT_SNSV2 allows attackers to cause a Denial of Service (DoS) via a crafted UPNP request.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2023-27217"
+  },
+  {
+    "id": "CVE-2023-45576",
+    "kind": "cve",
+    "name": "Buffer Overflow vulnerability in D-Link device DI-7003GV2",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Buffer Overflow vulnerability in D-Link device DI-7003GV2.D1 v.23.08.25D1 and before, DI-7100G+V2.D1 v.23.08.23D1 and before, DI-7100GV2.D1 v.23.08.23D1, DI-7200G+V2.D1 v.23.08.23D1 and before, DI-7200GV2.E1 v.23.08.23E1 and before, DI-7300G+V2.D1 v.23.08.23D1, and DI-7400G+V2.D1 v.23.08.23D1 and before allows a remote attacker to execute arbitrary code via the remove_ext_proto/remove_ext_port parameter of the upnp_ctrl.asp function.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2023-45576"
+  },
+  {
+    "id": "CVE-2023-46012",
+    "kind": "cve",
+    "name": "Buffer Overflow vulnerability LINKSYS EA7500 3",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "Buffer Overflow vulnerability LINKSYS EA7500 3.0.1.207964 allows a remote attacker to execute arbitrary code via an HTTP request to the IGD UPnP.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2023-46012"
+  },
+  {
+    "id": "CVE-2024-54802",
+    "kind": "cve",
+    "name": "In Netgear WNR854T 1",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "In Netgear WNR854T 1.5.2 (North America), the UPNP service (/usr/sbin/upnp) is vulnerable to stack-based buffer overflow in the M-SEARCH Host header.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2024-54802"
+  },
+  {
+    "id": "CVE-2025-11327",
+    "kind": "cve",
+    "name": "A security vulnerability has been detected in Tenda AC18 15",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A security vulnerability has been detected in Tenda AC18 15.03.05.19(6318). This vulnerability affects unknown code of the file /goform/SetUpnpCfg. The manipulation of the argument upnpEn leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be used.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-11327"
+  },
+  {
+    "id": "CVE-2025-11525",
+    "kind": "cve",
+    "name": "A vulnerability has been found in Tenda AC7 15",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A vulnerability has been found in Tenda AC7 15.03.06.44. Impacted is an unknown function of the file /goform/SetUpnpCfg. Such manipulation of the argument upnpEn leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-11525"
+  },
+  {
+    "id": "CVE-2025-12212",
+    "kind": "cve",
+    "name": "A weakness has been identified in Tenda O3 1",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A weakness has been identified in Tenda O3 1.0.0.10(2478). This affects the function SetValue/GetValue of the file /goform/setNetworkService. This manipulation of the argument upnpEn causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-12212"
+  },
+  {
+    "id": "CVE-2025-61498",
+    "kind": "cve",
+    "name": "A buffer overflow in the UPnP service of Tenda AC8 Hardware v03",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A buffer overflow in the UPnP service of Tenda AC8 Hardware v03.03.10.01 allows attackers to cause a Denial of Service (DoS) via supplying a crafted packet.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-61498"
+  },
+  {
+    "id": "CVE-2021-47854",
+    "kind": "cve",
+    "name": "DD-WRT version 45723 contains a buffer overflow vulnerability in the UPNP network discovery service that allows remote a",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "DD-WRT version 45723 contains a buffer overflow vulnerability in the UPNP network discovery service that allows remote attackers to potentially execute arbitrary code. Attackers can send crafted M-SEARCH packets with oversized UUID payloads to trigger buffer overflow conditions on the target device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-47854"
+  },
+  {
+    "id": "CVE-2026-4214",
+    "kind": "cve",
+    "name": "A flaw has been found in D-Link DNS-120, DNR-202L, DNS-315L, DNS-320, DNS-320L, DNS-320LW, DNS-321, DNR-322L, DNS-323, D",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A flaw has been found in D-Link DNS-120, DNR-202L, DNS-315L, DNS-320, DNS-320L, DNS-320LW, DNS-321, DNR-322L, DNS-323, DNS-325, DNS-326, DNS-327L, DNR-326, DNS-340L, DNS-343, DNS-345, DNS-726-4, DNS-1100-4, DNS-1200-05 and DNS-1550-04 up to 20260205. This issue affects the function UPnP_AV_Server_Path_Setting of the file /cgi-bin/app_mgr.cgi. Executing a manipulation can lead to stack-based buffer overflow. The attack may be launched remotely. The exploit has been published and may be used.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-4214"
+  },
+  {
+    "id": "CVE-2026-5004",
+    "kind": "cve",
+    "name": "A vulnerability was determined in Wavlink WL-WN579X3-C 231124",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A vulnerability was determined in Wavlink WL-WN579X3-C 231124. This impacts the function sub_4019FC of the file /cgi-bin/firewall.cgi of the component UPNP Handler. Executing a manipulation of the argument UpnpEnabled can lead to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-5004"
+  },
+  {
+    "id": "CVE-2026-5211",
+    "kind": "cve",
+    "name": "A flaw has been found in D-Link DNS-120, DNR-202L, DNS-315L, DNS-320, DNS-320L, DNS-320LW, DNS-321, DNR-322L, DNS-323, D",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A flaw has been found in D-Link DNS-120, DNR-202L, DNS-315L, DNS-320, DNS-320L, DNS-320LW, DNS-321, DNR-322L, DNS-323, DNS-325, DNS-326, DNS-327L, DNR-326, DNS-340L, DNS-343, DNS-345, DNS-726-4, DNS-1100-4, DNS-1200-05 and DNS-1550-04 up to 20260205. This vulnerability affects the function UPnP_AV_Server_Path_Del of the file /cgi-bin/app_mgr.cgi. Executing a manipulation of the argument f_dir can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been published and may be used.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-5211"
+  },
+  {
+    "id": "CVE-2026-7069",
+    "kind": "cve",
+    "name": "A security flaw has been discovered in D-Link DIR-825 up to 3",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A security flaw has been discovered in D-Link DIR-825 up to 3.00b32. This impacts the function AddPortMapping of the file upnpsoap.c of the component miniupnpd. Performing a manipulation of the argument NewPortMappingDescription results in buffer overflow. The attack needs to be approached within the local network. The exploit has been released to the public and may be used for attacks. This vulnerability only affects products that are no longer supported by the maintainer.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-7069"
+  },
+  {
+    "id": "CVE-2026-3870",
+    "kind": "cve",
+    "name": "A buffer overflow vulnerability in the UPnP AddPortMapping() command in Zyxel VMG4005-B50B firmware versions through 5",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A buffer overflow vulnerability in the UPnP AddPortMapping() command in Zyxel VMG4005-B50B firmware versions through 5.13(ABRL.5.4)C0 could allow an adjacent attacker to trigger a temporary denial-of-service (DoS) condition affecting the UPnP function of the affected device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-3870"
+  },
+  {
+    "id": "CVE-2026-3871",
+    "kind": "cve",
+    "name": "A buffer overflow vulnerability in the UPnP DeletePortMapping() command in Zyxel VMG4005-B50B firmware versions through ",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "A buffer overflow vulnerability in the UPnP DeletePortMapping() command in Zyxel VMG4005-B50B firmware versions through 5.13(ABRL.5.4)C0 could allow an adjacent attacker to trigger a temporary denial-of-service (DoS) condition affecting the UPnP function of the affected device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-3871"
+  },
+  {
+    "id": "CVE-2021-27137",
+    "kind": "cve",
+    "name": "An issue was discovered in router/upnp/src/ssdp",
+    "attack_families": [
+      "keyword:UPnP buffer overflow"
+    ],
+    "description": "An issue was discovered in router/upnp/src/ssdp.c in DD-WRT before 45724. An unsafe strcpy in the UPnP handling functionality allows an unauthenticated remote attacker to send a request that would overflow an internal fixed buffer. Exploitation requires the DD-WRT user to enable UPnP (which is off by default, and only listens on internal interfaces by default). This occurs in ssdp_msearch (reachable by an M-SEARCH request).",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-27137"
+  },
+  {
+    "id": "CVE-2016-10182",
+    "kind": "cve",
+    "name": "An issue was discovered on the D-Link DWR-932B router",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An issue was discovered on the D-Link DWR-932B router. qmiweb allows command injection with ` characters.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2016-10182"
+  },
+  {
+    "id": "CVE-2017-6884",
+    "kind": "cve",
+    "name": "A command injection vulnerability was discovered on the Zyxel EMG2926 home router with firmware V1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "A command injection vulnerability was discovered on the Zyxel EMG2926 home router with firmware V1.00(AAQT.4)b8. The vulnerability is located in the diagnostic tools, specifically the nslookup function. A malicious user may exploit numerous vectors to execute arbitrary commands on the router, such as the ping_ip parameter to the expert/maintenance/diagnostic/nslookup URI.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-6884"
+  },
+  {
+    "id": "CVE-2018-0217",
+    "kind": "cve",
+    "name": "A vulnerability in the CLI of the Cisco StarOS operating system for Cisco ASR 5000 Series Aggregation Services Routers c",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "A vulnerability in the CLI of the Cisco StarOS operating system for Cisco ASR 5000 Series Aggregation Services Routers could allow an authenticated, local attacker to perform a command injection attack on an affected system. The vulnerability is due to insufficient validation of commands that are supplied to certain configurations in the CLI of the affected operating system. An attacker could exploit this vulnerability by injecting crafted arguments into a vulnerable CLI command for an affected system. A successful exploit could allow the attacker to insert and execute arbitrary commands in the CLI of the affected system. To exploit this vulnerability, the attacker would need to authenticate to an affected system by using valid administrator credentials. Cisco Bug IDs: CSCvg29441.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-0217"
+  },
+  {
+    "id": "CVE-2018-5234",
+    "kind": "cve",
+    "name": "The Norton Core router prior to v237 may be susceptible to a command injection exploit",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The Norton Core router prior to v237 may be susceptible to a command injection exploit. This is a type of attack in which the goal is execution of arbitrary commands on the host system via vulnerable software.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-5234"
+  },
+  {
+    "id": "CVE-2018-10562",
+    "kind": "cve",
+    "name": "An issue was discovered on Dasan GPON home routers",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An issue was discovered on Dasan GPON home routers. Command Injection can occur via the dest_host parameter in a diag_action=ping request to a GponForm/diag_Form URI. Because the router saves ping results in /tmp and transmits them to the user when the user revisits /diag.html, it's quite simple to execute commands and retrieve their output.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-10562"
+  },
+  {
+    "id": "CVE-2017-12078",
+    "kind": "cve",
+    "name": "Command injection vulnerability in EZ-Internet in Synology Router Manager (SRM) before 1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Command injection vulnerability in EZ-Internet in Synology Router Manager (SRM) before 1.1.6-6931 allows remote authenticated users to execute arbitrary command via the username parameter.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-12078"
+  },
+  {
+    "id": "CVE-2018-17532",
+    "kind": "cve",
+    "name": "Teltonika RUT9XX routers with firmware before 00",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Teltonika RUT9XX routers with firmware before 00.04.233 are prone to multiple unauthenticated OS command injection vulnerabilities in autologin.cgi and hotspotlogin.cgi due to insufficient user input sanitization. This allows remote attackers to execute arbitrary commands with root privileges.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-17532"
+  },
+  {
+    "id": "CVE-2018-3953",
+    "kind": "cve",
+    "name": "Devices in the Linksys ESeries line of routers (Linksys E1200 Firmware Version 2",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Devices in the Linksys ESeries line of routers (Linksys E1200 Firmware Version 2.0.09 and Linksys E2500 Firmware Version 3.0.04) are susceptible to OS command injection vulnerabilities due to improper filtering of data passed to and retrieved from NVRAM. Data entered into the 'Router Name' input field through the web portal is submitted to apply.cgi as the value to the 'machine_name' POST parameter. When the 'preinit' binary receives the SIGHUP signal, it enters a code path that continues until it reaches offset 0x0042B5C4 in the 'start_lltd' function. Within the 'start_lltd' function, a 'nvram_get' call is used to obtain the value of the user-controlled 'machine_name' NVRAM entry. This value is then entered directly into a command intended to write the host name to a file and subsequently executed.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-3953"
+  },
+  {
+    "id": "CVE-2018-3954",
+    "kind": "cve",
+    "name": "Devices in the Linksys ESeries line of routers (Linksys E1200 Firmware Version 2",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Devices in the Linksys ESeries line of routers (Linksys E1200 Firmware Version 2.0.09 and Linksys E2500 Firmware Version 3.0.04) are susceptible to OS command injection vulnerabilities due to improper filtering of data passed to and retrieved from NVRAMData entered into the 'Router Name' input field through the web portal is submitted to apply.cgi as the value to the 'machine_name' POST parameter. When the 'preinit' binary receives the SIGHUP signal it enters a code path that calls a function named 'set_host_domain_name' from its libshared.so shared object.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-3954"
+  },
+  {
+    "id": "CVE-2018-3955",
+    "kind": "cve",
+    "name": "An exploitable operating system command injection exists in the Linksys ESeries line of routers (Linksys E1200 Firmware ",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An exploitable operating system command injection exists in the Linksys ESeries line of routers (Linksys E1200 Firmware Version 2.0.09 and Linksys E2500 Firmware Version 3.0.04). Specially crafted entries to network configuration information can cause execution of arbitrary system commands, resulting in full control of the device. An attacker can send an authenticated HTTP request to trigger this vulnerability. Data entered into the 'Domain Name' input field through the web portal is submitted to apply.cgi as the value to the 'wan_domain' POST parameter. The wan_domain data goes through the nvram_set process described above. When the 'preinit' binary receives the SIGHUP signal it enters a code path that calls a function named 'set_host_domain_name' from its libshared.so shared object.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-3955"
+  },
+  {
+    "id": "CVE-2018-13023",
+    "kind": "cve",
+    "name": "System command injection vulnerability in wifi_access in Xiaomi Mi Router 3 version 2",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "System command injection vulnerability in wifi_access in Xiaomi Mi Router 3 version 2.22.15 allows attackers to execute system commands via the \"timeout\" URL parameter.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-13023"
+  },
+  {
+    "id": "CVE-2018-16130",
+    "kind": "cve",
+    "name": "System command injection in request_mitv in Xiaomi Mi Router 3 version 2",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "System command injection in request_mitv in Xiaomi Mi Router 3 version 2.22.15 allows attackers to execute arbitrary system commands via the \"payload\" URL parameter.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-16130"
+  },
+  {
+    "id": "CVE-2018-13285",
+    "kind": "cve",
+    "name": "Command injection vulnerability in ftpd in Synology Router Manager (SRM) before 1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Command injection vulnerability in ftpd in Synology Router Manager (SRM) before 1.1.7-6941-1 allows remote authenticated users to execute arbitrary OS commands via the (1) MKD or (2) RMD command.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-13285"
+  },
+  {
+    "id": "CVE-2017-18368",
+    "kind": "cve",
+    "name": "The ZyXEL P660HN-T1A v1 TCLinux Fw $7",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The ZyXEL P660HN-T1A v1 TCLinux Fw $7.3.15.0 v001 / 3.40(ULM.0)b31 router distributed by TrueOnline has a command injection vulnerability in the Remote System Log forwarding function, which is accessible by an unauthenticated user. The vulnerability is in the ViewLog.asp page and can be exploited through the remote_host parameter.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-18368"
+  },
+  {
+    "id": "CVE-2017-18369",
+    "kind": "cve",
+    "name": "The Billion 5200W-T 1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The Billion 5200W-T 1.02b.rc5.dt49 router distributed by TrueOnline has a command injection vulnerability in the Remote System Log forwarding function, which is accessible by an unauthenticated user. The vulnerability is in the adv_remotelog.asp page and can be exploited through the syslogServerAddr parameter.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-18369"
+  },
+  {
+    "id": "CVE-2017-18370",
+    "kind": "cve",
+    "name": "The ZyXEL P660HN-T1A v2 TCLinux Fw #7",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The ZyXEL P660HN-T1A v2 TCLinux Fw #7.3.37.6 router distributed by TrueOnline has a command injection vulnerability in the Remote System Log forwarding function, which is only accessible by an authenticated user. The vulnerability is in the logSet.asp page and can be exploited through the ServerIP parameter. Authentication can be achieved by exploiting CVE-2017-18371.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-18370"
+  },
+  {
+    "id": "CVE-2017-18372",
+    "kind": "cve",
+    "name": "The Billion 5200W-T TCLinux Fw $7",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The Billion 5200W-T TCLinux Fw $7.3.8.0 v008 130603 router distributed by TrueOnline has a command injection vulnerability in the Time Setting function, which is only accessible by an authenticated user. The vulnerability is in the tools_time.asp page and can be exploited through the uiViewSNTPServer parameter. Authentication can be achieved by exploiting CVE-2017-18373.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-18372"
+  },
+  {
+    "id": "CVE-2016-10760",
+    "kind": "cve",
+    "name": "On Seowon Intech routers, there is a Command Injection vulnerability in diagnostic",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "On Seowon Intech routers, there is a Command Injection vulnerability in diagnostic.cgi via shell metacharacters in the ping_ipaddr parameter.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2016-10760"
+  },
+  {
+    "id": "CVE-2019-3417",
+    "kind": "cve",
+    "name": "All versions up to V1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "All versions up to V1.1.10P3T18 of ZTE ZXHN F670 product are impacted by command injection vulnerability. Due to insufficient parameter validation check, an authorized user can exploit this vulnerability to take control of user router system.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2019-3417"
+  },
+  {
+    "id": "CVE-2018-19031",
+    "kind": "cve",
+    "name": "A command injection vulnerability exists when the authorized user passes crafted parameter to background process in the ",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "A command injection vulnerability exists when the authorized user passes crafted parameter to background process in the router. This affects 360 router series products (360 Safe Router P0,P1,P2,P3,P4), the affected version is V2.0.61.58897.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-19031"
+  },
+  {
+    "id": "CVE-2019-5071",
+    "kind": "cve",
+    "name": "An exploitable command injection vulnerability exists in the /goform/WanParameterSetting functionality of Tenda AC9 Rout",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An exploitable command injection vulnerability exists in the /goform/WanParameterSetting functionality of Tenda AC9 Router AC1200 Smart Dual-Band Gigabit WiFi Route (AC9V1.0 Firmware V15.03.05.16multiTRU). A specially crafted HTTP POST request can cause a command injection in the DNS1 post parameters, resulting in code execution. An attacker can send HTTP POST request with command to trigger this vulnerability.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2019-5071"
+  },
+  {
+    "id": "CVE-2019-5072",
+    "kind": "cve",
+    "name": "An exploitable command injection vulnerability exists in the /goform/WanParameterSetting functionality of Tenda AC9 Rout",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An exploitable command injection vulnerability exists in the /goform/WanParameterSetting functionality of Tenda AC9 Router AC1200 Smart Dual-Band Gigabit WiFi Route (AC9V1.0 Firmware V15.03.05.16multiTRU). A specially crafted HTTP POST request can cause a command injection in the DNS2 post parameters, resulting in code execution. An attacker can send HTTP POST request with command to trigger this vulnerability.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2019-5072"
+  },
+  {
+    "id": "CVE-2018-20334",
+    "kind": "cve",
+    "name": "An issue was discovered in ASUSWRT 3",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An issue was discovered in ASUSWRT 3.0.0.4.384.20308. When processing the /start_apply.htm POST data, there is a command injection issue via shell metacharacters in the fb_email parameter. By using this issue, an attacker can control the router and get shell.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-20334"
+  },
+  {
+    "id": "CVE-2020-12246",
+    "kind": "cve",
+    "name": "Beeline Smart Box 2",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Beeline Smart Box 2.0.38 routers allow \"Advanced settings > Other > Diagnostics\" OS command injection via the Ping ping_ipaddr parameter, the Nslookup nslookup_ipaddr parameter, or the Traceroute traceroute_ipaddr parameter.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-12246"
+  },
+  {
+    "id": "CVE-2020-14102",
+    "kind": "cve",
+    "name": "There is command injection when ddns processes the hostname, which causes the administrator user to obtain the root priv",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "There is command injection when ddns processes the hostname, which causes the administrator user to obtain the root privilege of the router. This affects Xiaomi router AX1800rom version < 1.0.336 and Xiaomi route RM1800 root version < 1.0.26.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-14102"
+  },
+  {
+    "id": "CVE-2021-27708",
+    "kind": "cve",
+    "name": "Command Injection in TOTOLINK X5000R router with firmware v9",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Command Injection in TOTOLINK X5000R router with firmware v9.1.0u.6118_B20201102, and TOTOLINK A720R router with firmware v4.1.5cu.470_B20200911 allows remote attackers to execute arbitrary OS commands by sending a modified HTTP request. This occurs because the function executes glibc's system function with untrusted input. In the function, \"command\" parameter is directly passed to the attacker, allowing them to control the \"command\" field to attack the OS.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-27708"
+  },
+  {
+    "id": "CVE-2021-27710",
+    "kind": "cve",
+    "name": "Command Injection in TOTOLINK X5000R router with firmware v9",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Command Injection in TOTOLINK X5000R router with firmware v9.1.0u.6118_B20201102, and TOTOLINK A720R router with firmware v4.1.5cu.470_B20200911 allows remote attackers to execute arbitrary OS commands by sending a modified HTTP request. This occurs because the function executes glibc's system function with untrusted input. In the function, \"ip\" parameter is directly passed to the attacker, allowing them to control the \"ip\" field to attack the OS.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-27710"
+  },
+  {
+    "id": "CVE-2021-27691",
+    "kind": "cve",
+    "name": "Command Injection in Tenda G0 routers with firmware versions v15",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Command Injection in Tenda G0 routers with firmware versions v15.11.0.6(9039)_CN and v15.11.0.5(5876)_CN , and Tenda G1 and G3 routers with firmware versions v15.11.0.17(9502)_CN or v15.11.0.16(9024)_CN allows remote attackers to execute arbitrary OS commands via a crafted action/setDebugCfg request. This occurs because the \"formSetDebugCfg\" function executes glibc's system function with untrusted input.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-27691"
+  },
+  {
+    "id": "CVE-2021-27692",
+    "kind": "cve",
+    "name": "Command Injection in Tenda G1 and G3 routers with firmware versions v15",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "Command Injection in Tenda G1 and G3 routers with firmware versions v15.11.0.17(9502)_CN or v15.11.0.16(9024)_CN allows remote attackers to execute arbitrary OS commands via a crafted \"action/umountUSBPartition\" request. This occurs because the \"formSetUSBPartitionUmount\" function executes the \"doSystemCmd\" function with untrusted input.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-27692"
+  },
+  {
+    "id": "CVE-2020-21935",
+    "kind": "cve",
+    "name": "A command injection vulnerability in HNAP1/GetNetworkTomographySettings of Motorola CX2 router CX 1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "A command injection vulnerability in HNAP1/GetNetworkTomographySettings of Motorola CX2 router CX 1.0.2 Build 20190508 Rel.97360n allows attackers to execute arbitrary code.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-21935"
+  },
+  {
+    "id": "CVE-2020-21937",
+    "kind": "cve",
+    "name": "An command injection vulnerability in HNAP1/SetWLanApcliSettings of Motorola CX2 router CX 1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An command injection vulnerability in HNAP1/SetWLanApcliSettings of Motorola CX2 router CX 1.0.2 Build 20190508 Rel.97360n allows attackers to execute arbitrary system commands.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-21937"
+  },
+  {
+    "id": "CVE-2021-3708",
+    "kind": "cve",
+    "name": "D-Link router DSL-2750U with firmware vME1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to OS command injection. An unauthenticated attacker on the local network may exploit this, with CVE-2021-3707, to execute any OS commands on the vulnerable device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-3708"
+  },
+  {
+    "id": "CVE-2021-39510",
+    "kind": "cve",
+    "name": "An issue was discovered in D-Link DIR816_A1_FW101CNB04 750m11ac wireless router, The HTTP request parameter is used in t",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An issue was discovered in D-Link DIR816_A1_FW101CNB04 750m11ac wireless router, The HTTP request parameter is used in the handler function of /goform/form2userconfig.cgi route, which can construct the user name string to delete the user function. This can lead to command injection through shell metacharacters.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-39510"
+  },
+  {
+    "id": "CVE-2020-14109",
+    "kind": "cve",
+    "name": "There is command injection in the meshd program in the routing system, resulting in command execution under administrato",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "There is command injection in the meshd program in the routing system, resulting in command execution under administrator authority on Xiaomi router AX3600 with ROM version =< 1.1.12",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-14109"
+  },
+  {
+    "id": "CVE-2020-14119",
+    "kind": "cve",
+    "name": "There is command injection in the addMeshNode interface of xqnetwork",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "There is command injection in the addMeshNode interface of xqnetwork.lua, which leads to command execution under administrator authority on Xiaomi router AX3600 with rom versionrom< 1.1.12",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-14119"
+  },
+  {
+    "id": "CVE-2021-20122",
+    "kind": "cve",
+    "name": "The Telus Wi-Fi Hub (PRV65B444A-S-TS) with firmware version 3",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "The Telus Wi-Fi Hub (PRV65B444A-S-TS) with firmware version 3.00.20 is affected by an authenticated command injection vulnerability in multiple parameters passed to tr69_cmd.cgi. A remote attacker connected to the router's LAN and authenticated with a super user account, or using a bypass authentication vulnerability like CVE-2021-20090 could leverage this issue to run commands or gain a shell as root on the target device.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20122"
+  },
+  {
+    "id": "CVE-2021-20863",
+    "kind": "cve",
+    "name": "OS command injection vulnerability in ELECOM routers (WRC-1167GST2 firmware v1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "OS command injection vulnerability in ELECOM routers (WRC-1167GST2 firmware v1.25 and prior, WRC-1167GST2A firmware v1.25 and prior, WRC-1167GST2H firmware v1.25 and prior, WRC-2533GS2-B firmware v1.52 and prior, WRC-2533GS2-W firmware v1.52 and prior, WRC-1750GS firmware v1.03 and prior, WRC-1750GSV firmware v2.11 and prior, WRC-1900GST firmware v1.03 and prior, WRC-2533GST firmware v1.03 and prior, WRC-2533GSTA firmware v1.03 and prior, WRC-2533GST2 firmware v1.25 and prior, WRC-2533GST2SP firmware v1.25 and prior, WRC-2533GST2-G firmware v1.25 and prior, and EDWRC-2533GST2 firmware v1.25 and prior) allows a network-adjacent authenticated attackers to execute an arbitrary OS command with the root privilege via unspecified vectors.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20863"
+  },
+  {
+    "id": "CVE-2021-20138",
+    "kind": "cve",
+    "name": "An unauthenticated command injection vulnerability exists in multiple parameters in the Gryphon Tower router\u2019s web inter",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An unauthenticated command injection vulnerability exists in multiple parameters in the Gryphon Tower router\u2019s web interface at /cgi-bin/luci/rc. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the web interface.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20138"
+  },
+  {
+    "id": "CVE-2021-20139",
+    "kind": "cve",
+    "name": "An unauthenticated command injection vulnerability exists in the parameters of operation 3 in the controller_server serv",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An unauthenticated command injection vulnerability exists in the parameters of operation 3 in the controller_server service on Gryphon Tower routers. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the controller_server service on port 9999.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20139"
+  },
+  {
+    "id": "CVE-2021-20140",
+    "kind": "cve",
+    "name": "An unauthenticated command injection vulnerability exists in the parameters of operation 10 in the controller_server ser",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An unauthenticated command injection vulnerability exists in the parameters of operation 10 in the controller_server service on Gryphon Tower routers. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the controller_server service on port 9999.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20140"
+  },
+  {
+    "id": "CVE-2021-20141",
+    "kind": "cve",
+    "name": "An unauthenticated command injection vulnerability exists in the parameters of operation 32 in the controller_server ser",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An unauthenticated command injection vulnerability exists in the parameters of operation 32 in the controller_server service on Gryphon Tower routers. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the controller_server service on port 9999.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20141"
+  },
+  {
+    "id": "CVE-2021-20142",
+    "kind": "cve",
+    "name": "An unauthenticated command injection vulnerability exists in the parameters of operation 41 in the controller_server ser",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An unauthenticated command injection vulnerability exists in the parameters of operation 41 in the controller_server service on Gryphon Tower routers. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the controller_server service on port 9999.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20142"
+  },
+  {
+    "id": "CVE-2021-20143",
+    "kind": "cve",
+    "name": "An unauthenticated command injection vulnerability exists in the parameters of operation 48 in the controller_server ser",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An unauthenticated command injection vulnerability exists in the parameters of operation 48 in the controller_server service on Gryphon Tower routers. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the controller_server service on port 9999.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20143"
+  },
+  {
+    "id": "CVE-2021-20144",
+    "kind": "cve",
+    "name": "An unauthenticated command injection vulnerability exists in the parameters of operation 49 in the controller_server ser",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "An unauthenticated command injection vulnerability exists in the parameters of operation 49 in the controller_server service on Gryphon Tower routers. An unauthenticated remote attacker on the same network can execute commands as root on the device by sending a specially crafted malicious packet to the controller_server service on port 9999.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-20144"
+  },
+  {
+    "id": "CVE-2021-4144",
+    "kind": "cve",
+    "name": "TP-Link wifi router TL-WR802N V4(JP), with firmware version prior to 211202, is vulnerable to OS command injection",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "TP-Link wifi router TL-WR802N V4(JP), with firmware version prior to 211202, is vulnerable to OS command injection.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-4144"
+  },
+  {
+    "id": "CVE-2021-33962",
+    "kind": "cve",
+    "name": "China Mobile An Lianbao WF-1 router v1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "China Mobile An Lianbao WF-1 router v1.0.1 is affected by an OS command injection vulnerability in the web interface /api/ZRUsb/pop_usb_device component.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-33962"
+  },
+  {
+    "id": "CVE-2021-33963",
+    "kind": "cve",
+    "name": "China Mobile An Lianbao WF-1 v1",
+    "attack_families": [
+      "keyword:router command injection"
+    ],
+    "description": "China Mobile An Lianbao WF-1 v1.0.1 router web interface through /api/ZRMacClone/mac_addr_clone receives parameters by POST request, and the parameter macType has a command injection vulnerability. An attacker can use the vulnerability to execute remote commands.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-33963"
+  },
+  {
+    "id": "CVE-2017-1000020",
+    "kind": "cve",
+    "name": "SYN Flood or FIN Flood attack in ECos 1 and other versions embedded devices results in web Authentication Bypass",
+    "attack_families": [
+      "keyword:embedded device authentication bypass"
+    ],
+    "description": "SYN Flood or FIN Flood attack in ECos 1 and other versions embedded devices results in web Authentication Bypass. \"eCos Embedded Web Servers used by Multiple Routers and Home devices, while sending SYN Flood or FIN Flood packets fails to validate and handle the packets and does not ask for any sign of authentication resulting in Authentication Bypass. An attacker can take complete advantage of this bug and take over the device remotely or locally. The bug has been successfully tested and reproduced in some versions of SOHO Routers manufactured by TOTOLINK, GREATEK and others.\"",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-1000020"
+  },
+  {
+    "id": "CVE-2023-33372",
+    "kind": "cve",
+    "name": "Connected IO v2",
+    "attack_families": [
+      "keyword:embedded device authentication bypass"
+    ],
+    "description": "Connected IO v2.1.0 and prior uses a hard-coded username/password pair embedded in their device's firmware used for device communication using MQTT. An attacker who gained access to these credentials is able to connect to the MQTT broker and send messages on behalf of devices, impersonating them. in order to sign and verify JWT session tokens, allowing attackers to sign arbitrary session tokens and bypass authentication.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2023-33372"
+  },
+  {
+    "id": "CVE-2026-9141",
+    "kind": "cve",
+    "name": "Taiko AG1000-01A SMS Alert Gateway Rev 7",
+    "attack_families": [
+      "keyword:embedded device authentication bypass"
+    ],
+    "description": "Taiko AG1000-01A SMS Alert Gateway Rev 7.3 and Rev 8 contains an authentication bypass vulnerability in the embedded web configuration interface that allows unauthenticated attackers to access internal application pages without any session management or server-side authentication checks. Attackers with network access can directly request internal resources such as index.zhtml, point.zhtml, and log.shtml to gain full administrative read and write access, enabling unauthorized modification of alarm routing, device configuration, and disruption of monitoring and control functions.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-9141"
+  },
+  {
+    "id": "CVE-2017-8771",
+    "kind": "cve",
+    "name": "On BE126 WIFI repeater 1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "On BE126 WIFI repeater 1.0 devices, an attacker can log into telnet (which is open by default) with default credentials as root (username:\"root\" password:\"root\"). The attacker can make a user that is connected to the repeater click on a malicious link that will log into the telnet and will infect the device with malicious code.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-8771"
+  },
+  {
+    "id": "CVE-2017-8772",
+    "kind": "cve",
+    "name": "On BE126 WIFI repeater 1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "On BE126 WIFI repeater 1.0 devices, an attacker can log into telnet (which is open by default) with default credentials as root (username:\"root\" password:\"root\") and can: 1. Read the entire file system; 2. Write to the file system; or 3. Execute any code that attacker desires (malicious or not).",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-8772"
+  },
+  {
+    "id": "CVE-2018-11629",
+    "kind": "cve",
+    "name": "Default and unremovable support credentials (user:lutron password:integration) allow attackers to gain total super user ",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Default and unremovable support credentials (user:lutron password:integration) allow attackers to gain total super user control of an IoT device through a TELNET session to products using the HomeWorks QS Lutron integration protocol Revision M to Revision Y. NOTE: The vendor disputes this id as not being a vulnerability because what can be done through the ports revolve around controlling lighting, not code execution. A certain set of commands are listed, which bear some similarity to code, but they are not arbitrary and do not allow admin-level control of a machine",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-11629"
+  },
+  {
+    "id": "CVE-2018-11681",
+    "kind": "cve",
+    "name": "Default and unremovable support credentials (user:nwk password:nwk2) allow attackers to gain total super user control of",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Default and unremovable support credentials (user:nwk password:nwk2) allow attackers to gain total super user control of an IoT device through a TELNET session to products using the RadioRA 2 Lutron integration protocol Revision M to Revision Y. NOTE: The vendor disputes this id as not being a vulnerability because what can be done through the ports revolve around controlling lighting, not code execution. A certain set of commands are listed, which bear some similarity to code, but they are not arbitrary and do not allow admin-level control of a machine",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-11681"
+  },
+  {
+    "id": "CVE-2018-11682",
+    "kind": "cve",
+    "name": "Default and unremovable support credentials allow attackers to gain total super user control of an IoT device through a ",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Default and unremovable support credentials allow attackers to gain total super user control of an IoT device through a TELNET session to products using the Stanza Lutron integration protocol Revision M to Revision Y. NOTE: The vendor disputes this id as not being a vulnerability because what can be done through the ports revolve around controlling lighting, not code execution. A certain set of commands are listed, which bear some similarity to code, but they are not arbitrary and do not allow admin-level control of a machine",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-11682"
+  },
+  {
+    "id": "CVE-2016-9495",
+    "kind": "cve",
+    "name": "Hughes high-performance broadband satellite modems, models HN7740S DW7000 HN7000S/SM, uses hard coded credentials",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Hughes high-performance broadband satellite modems, models HN7740S DW7000 HN7000S/SM, uses hard coded credentials. Access to the device's default telnet port (23) can be obtained through using one of a few default credentials shared among all devices.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2016-9495"
+  },
+  {
+    "id": "CVE-2018-9083",
+    "kind": "cve",
+    "name": "In System Management Module (SMM) versions prior to 1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "In System Management Module (SMM) versions prior to 1.06, the SMM contains weak default root credentials which could be used to log in to the device OS -- if the attacker manages to enable SSH or Telnet connections via some other vulnerability.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-9083"
+  },
+  {
+    "id": "CVE-2018-10694",
+    "kind": "cve",
+    "name": "An issue was discovered on Moxa AWK-3121 1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "An issue was discovered on Moxa AWK-3121 1.14 devices. The device provides a Wi-Fi connection that is open and does not use any encryption mechanism by default. An administrator who uses the open wireless connection to set up the device can allow an attacker to sniff the traffic passing between the user's computer and the device. This can allow an attacker to steal the credentials passing over the HTTP connection as well as TELNET traffic. Also an attacker can MITM the response and infect a user's computer very easily as well.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-10694"
+  },
+  {
+    "id": "CVE-2018-10698",
+    "kind": "cve",
+    "name": "An issue was discovered on Moxa AWK-3121 1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "An issue was discovered on Moxa AWK-3121 1.14 devices. The device enables an unencrypted TELNET service by default. This allows an attacker who has been able to gain an MITM position to easily sniff the traffic between the device and the user. Also an attacker can easily connect to the TELNET daemon using the default credentials if they have not been changed by the user.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2018-10698"
+  },
+  {
+    "id": "CVE-2017-8229",
+    "kind": "cve",
+    "name": "Amcrest IPM-721S V2",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Amcrest IPM-721S V2.420.AC00.16.R.20160909 devices allow an unauthenticated attacker to download the administrative credentials. If the firmware version V2.420.AC00.16.R 9/9/2016 is dissected using binwalk tool, one obtains a _user-x.squashfs.img.extracted archive which contains the filesystem set up on the device that many of the binaries in the /usr folder. The binary \"sonia\" is the one that has the vulnerable function that sets up the default credentials on the device. If one opens this binary in IDA-pro one will notice that this follows a ARM little endian format. The function sub_436D6 in IDA pro is identified to be setting up the configuration for the device. If one scrolls to the address 0x000437C2 then one can see that /current_config is being set as an ALIAS for /mnt/mtd/Config folder on the device. If one TELNETs into the device and navigates to /mnt/mtd/Config folder, one can observe that it contains various files such as Account1, Account2, SHAACcount1, etc. This means that if one navigates to http://[IPofcamera]/current_config/Sha1Account1 then one should be able to view the content of the files. The security researchers assumed that this was only possible only after authentication to the device. However, when unauthenticated access tests were performed for the same URL as provided above, it was observed that the device file could be downloaded without any authentication.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2017-8229"
+  },
+  {
+    "id": "CVE-2019-16734",
+    "kind": "cve",
+    "name": "Use of default credentials for the TELNET server in Petwant PF-103 firmware 4",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Use of default credentials for the TELNET server in Petwant PF-103 firmware 4.3.2.50 and Petalk AI 3.2.2.30 allows remote attackers to execute arbitrary system commands as the root user.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2019-16734"
+  },
+  {
+    "id": "CVE-2019-13554",
+    "kind": "cve",
+    "name": "GE Mark VIe Controller has an unsecured Telnet protocol that may allow a user to create an authenticated session using g",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "GE Mark VIe Controller has an unsecured Telnet protocol that may allow a user to create an authenticated session using generic default credentials. GE recommends that users disable the Telnet service.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2019-13554"
+  },
+  {
+    "id": "CVE-2020-27555",
+    "kind": "cve",
+    "name": "Use of default credentials for the telnet server in BASETech GE-131 BT-1837836 firmware 20180921 allows remote attackers",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Use of default credentials for the telnet server in BASETech GE-131 BT-1837836 firmware 20180921 allows remote attackers to execute arbitrary system commands as the root user.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-27555"
+  },
+  {
+    "id": "CVE-2020-26097",
+    "kind": "cve",
+    "name": "The firmware of the PLANET Technology Corp NVR-915 and NVR-1615 before 2020-10-28 embeds default credentials for root ac",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "The firmware of the PLANET Technology Corp NVR-915 and NVR-1615 before 2020-10-28 embeds default credentials for root access via telnet. By exposing telnet on the Internet, remote root access on the device is possible. NOTE: This vulnerability only affects products that are no longer supported by the maintainer",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-26097"
+  },
+  {
+    "id": "CVE-2020-21995",
+    "kind": "cve",
+    "name": "Inim Electronics Smartliving SmartLAN/G/SI <=6",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Inim Electronics Smartliving SmartLAN/G/SI <=6.x uses default hardcoded credentials. An attacker could exploit this to gain Telnet, SSH and FTP access to the system.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-21995"
+  },
+  {
+    "id": "CVE-2021-28152",
+    "kind": "cve",
+    "name": "Hongdian H8922 3",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Hongdian H8922 3.0.5 devices have an undocumented feature that allows access to a shell as a superuser. To connect, the telnet service is used on port 5188 with the default credentials of root:superzxmn.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-28152"
+  },
+  {
+    "id": "CVE-2021-35327",
+    "kind": "cve",
+    "name": "A vulnerability in TOTOLINK A720R A720R_Firmware v4",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "A vulnerability in TOTOLINK A720R A720R_Firmware v4.1.5cu.470_B20200911 allows attackers to start the Telnet service, then login with the default credentials via a crafted POST request.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-35327"
+  },
+  {
+    "id": "CVE-2021-30028",
+    "kind": "cve",
+    "name": "SOOTEWAY Wi-Fi Range Extender v1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "SOOTEWAY Wi-Fi Range Extender v1.5 was discovered to use default credentials (the admin password for the admin account) to access the TELNET service, allowing attackers to erase/read/write the firmware remotely.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2021-30028"
+  },
+  {
+    "id": "CVE-2022-3203",
+    "kind": "cve",
+    "name": "On ORing net IAP-420(+) with FW version 2",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "On ORing net IAP-420(+) with FW version 2.0m a telnet server is enabled by default and cannot permanently be disabled. You can connect to the device via LAN or WiFi with hardcoded credentials and get an administrative shell. These credentials are reset to defaults with every reboot.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2022-3203"
+  },
+  {
+    "id": "CVE-2022-45045",
+    "kind": "cve",
+    "name": "Multiple Xiongmai NVR devices, including MBD6304T V4",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Multiple Xiongmai NVR devices, including MBD6304T V4.02.R11.00000117.10001.131900.00000 and NBD6808T-PL V4.02.R11.C7431119.12001.130000.00000, allow authenticated users to execute arbitrary commands as root, as exploited in the wild starting in approximately 2019. A remote and authenticated attacker, possibly using the default admin:tlJwpbo6 credentials, can connect to port 34567 and execute arbitrary operating system commands via a crafted JSON file during an upgrade request. Since at least 2021, Xiongmai has applied patches to prevent attackers from using this mechanism to execute telnetd.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2022-45045"
+  },
+  {
+    "id": "CVE-2023-30351",
+    "kind": "cve",
+    "name": "Shenzen Tenda Technology IP Camera CP3 V11",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Shenzen Tenda Technology IP Camera CP3 V11.10.00.2211041355 was discovered to contain a hard-coded default password for root which is stored using weak encryption. This vulnerability allows attackers to connect to the TELNET service (or UART) by using the exposed credentials.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2023-30351"
+  },
+  {
+    "id": "CVE-2024-28093",
+    "kind": "cve",
+    "name": "The TELNET service of AdTran NetVanta 3120 18",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "The TELNET service of AdTran NetVanta 3120 18.01.01.00.E devices is enabled by default, and has default credentials for a root-level account.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2024-28093"
+  },
+  {
+    "id": "CVE-2023-43845",
+    "kind": "cve",
+    "name": "Aten PE6208 2",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Aten PE6208 2.3.228 and 2.4.232 have default credentials for the privileged telnet account. The user is not asked to change the credentials after first login. If not changed, attackers can log in to the telnet console and gain administrator privileges.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2023-43845"
+  },
+  {
+    "id": "CVE-2025-0890",
+    "kind": "cve",
+    "name": "**UNSUPPORTED WHEN ASSIGNED**\nInsecure default credentials for the Telnet function in the legacy DSL CPE Zyxel VMG4325-B",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "**UNSUPPORTED WHEN ASSIGNED**\nInsecure default credentials for the Telnet function in the legacy DSL CPE Zyxel VMG4325-B10A firmware version 1.00(AAFR.4)C0_20170615 could allow an attacker to log in to the management interface if the administrators have the option to change the default credentials but fail to do so.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-0890"
+  },
+  {
+    "id": "CVE-2025-6529",
+    "kind": "cve",
+    "name": "A vulnerability was found in 70mai M300 up to 20250611 and classified as critical",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "A vulnerability was found in 70mai M300 up to 20250611 and classified as critical. Affected by this issue is some unknown functionality of the component Telnet Service. The manipulation leads to use of default credentials. The attack needs to be initiated within the local network. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-6529"
+  },
+  {
+    "id": "CVE-2025-52364",
+    "kind": "cve",
+    "name": "Insecure Permissions vulnerability in Tenda CP3 Pro Firmware V22",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Insecure Permissions vulnerability in Tenda CP3 Pro Firmware V22.5.4.93 allows the telnet service (telnetd) by default at boot via the initialization script /etc/init.d/eth.sh. This allows remote attackers to connect to the device s shell over the network, potentially without authentication if default or weak credentials are present",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-52364"
+  },
+  {
+    "id": "CVE-2025-7503",
+    "kind": "cve",
+    "name": "An OEM IP camera manufactured by Shenzhen Liandian Communication Technology LTD exposes a Telnet service (port 23) with ",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "An OEM IP camera manufactured by Shenzhen Liandian Communication Technology LTD exposes a Telnet service (port 23) with undocumented, default credentials. The Telnet service is enabled by default and is not disclosed or configurable via the device\u2019s web interface or user manual. An attacker with network access can authenticate using default credentials and gain root-level shell access to the device. The affected firmware version is AppFHE1_V1.0.6.0 (Kernel: KerFHE1_PTZ_WIFI_V3.1.1, Hardware: HwFHE1_WF6_PTZ_WIFI_20201218). No official fix or firmware update is available, and the vendor could not be contacted. This vulnerability allows for remote code execution and privilege escalation.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-7503"
+  },
+  {
+    "id": "CVE-2025-35451",
+    "kind": "cve",
+    "name": "PTZOptics and possibly other ValueHD-based pan-tilt-zoom cameras use hard-coded, default administrative credentials",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "PTZOptics and possibly other ValueHD-based pan-tilt-zoom cameras use hard-coded, default administrative credentials. The passwords can readily be cracked. Many cameras have SSH or telnet listening on all interfaces. The passwords cannot be changed by the user, nor can the SSH or telnet service be disabled by the user.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-35451"
+  },
+  {
+    "id": "CVE-2025-57428",
+    "kind": "cve",
+    "name": "Default credentials in Each Italy Wireless Mini Router WIRELESS-N 300M v28K",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Default credentials in Each Italy Wireless Mini Router WIRELESS-N 300M v28K.MiniRouter.20190211 allows attackers to gain access to the debug shell exposed via Telnet on Port 23 and execute hardware-level flash and register manipulation commands.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-57428"
+  },
+  {
+    "id": "CVE-2025-34501",
+    "kind": "cve",
+    "name": "Deck Mate 2 is distributed with static, hard-coded credentials for the root shell and web user interface, while multiple",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Deck Mate 2 is distributed with static, hard-coded credentials for the root shell and web user interface, while multiple management services (SSH, HTTP, Telnet, SMB, X11) are enabled by default. If an attacker can reach these interfaces - most often through local or near-local access such as connecting to the USB or Ethernet ports beneath the table - the built-in credentials permit administrative login and full control of the system. Once authenticated, an attacker can access firmware utilities, modify controller software, and establish persistent compromise. Remote attack paths via network, cellular, or telemetry links may exist in specific configurations but generally require additional capabilities or operator error. The vendor reports that USB access has been disabled in current firmware builds.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-34501"
+  },
+  {
+    "id": "CVE-2020-36915",
+    "kind": "cve",
+    "name": "Adtec Digital SignEdje Digital Signage Player v2",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Adtec Digital SignEdje Digital Signage Player v2.08.28 contains multiple hardcoded default credentials that allow unauthenticated remote access to web, telnet, and SSH interfaces. Attackers can exploit these credentials to gain root-level access and execute system commands across multiple Adtec Digital product versions.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2020-36915"
+  },
+  {
+    "id": "CVE-2025-70998",
+    "kind": "cve",
+    "name": "UTT HiPER 810 / nv810v4 router firmware v1",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "UTT HiPER 810 / nv810v4 router firmware v1.5.0-140603 was discovered to contain insecure default credentials for the telnet service, possibly allowing a remote attacker to gain root access via a crafted script.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2025-70998"
+  },
+  {
+    "id": "CVE-2026-10045",
+    "kind": "cve",
+    "name": "Shenzhen Kangda Xin Intelligent Network Technology Company's router, model DR300, version 2",
+    "attack_families": [
+      "keyword:telnet default credentials"
+    ],
+    "description": "Shenzhen Kangda Xin Intelligent Network Technology Company's router, model DR300, version 2.1.2.121, contains hardcoded login credentials and has telnet enabled by default on WAN and LAN interfaces. These vulnerabilities allow attackers to read and write to memory, modify firmware stored in flash, inspect active connections, and view currently connected devices.",
+    "source_url": "nvd.nist.gov/vuln/detail/CVE-2026-10045"
+  }
+]

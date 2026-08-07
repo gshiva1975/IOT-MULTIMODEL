@@ -107,7 +107,6 @@ def generate_condition_report(csv_path, out_dir, condition="rag_grounded",
         os.makedirs(slices_dir, exist_ok=True)
 
         copied_image_paths, pcap_slice_paths = [], []
-        source_cache = {}
         n_ok = 0
         for _, row in df.iterrows():
             sample_id = row["sample_id"]
@@ -126,9 +125,14 @@ def generate_condition_report(csv_path, out_dir, condition="rag_grounded",
 
             dst_slice = os.path.join(slices_dir, f"{sample_id}.csv")
             if os.path.isfile(src_pcap):
-                if src_pcap not in source_cache:
-                    source_cache[src_pcap] = pd.read_csv(src_pcap)
-                sl = source_cache[src_pcap].iloc[int(row["row_start"]):int(row["row_end"])]
+                # Read only the needed row range directly off disk rather than
+                # loading (and caching) the whole source file -- across a
+                # full multi-class run, source files can be large enough that
+                # caching every distinct one in memory at once risks an OOM
+                # kill. skiprows keeps the header (row 0) and skips the data
+                # rows before row_start; nrows caps it to exactly the window.
+                row_start, row_end = int(row["row_start"]), int(row["row_end"])
+                sl = pd.read_csv(src_pcap, skiprows=range(1, row_start + 1), nrows=row_end - row_start)
                 sl.to_csv(dst_slice, index=False)
                 pcap_slice_paths.append(dst_slice)
                 n_ok += 1

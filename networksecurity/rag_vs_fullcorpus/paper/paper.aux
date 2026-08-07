@@ -1,0 +1,73 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{clearsight2026}
+\citation{clearsight2026}
+\citation{ciciot2023}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{clearsight2026}
+\citation{lewis2020rag}
+\citation{lewis2020rag}
+\@writefile{toc}{\contentsline {paragraph}{Contributions.}{2}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\citation{robertson2009bm25}
+\citation{deerwester1990lsa}
+\citation{clearsight2026}
+\citation{ciciot2023}
+\citation{scikit-learn}
+\citation{robertson2009bm25}
+\citation{deerwester1990lsa}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Two context-construction strategies}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Cost and latency measurement}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Corpus construction}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Real CAPEC/CVE anchor entries, individually fetched and verified.\relax }}{5}{table.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:real-entries}{{1}{5}{Real CAPEC/CVE anchor entries, individually fetched and verified.\relax }{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Experimental protocol}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Cost and latency scale as predicted by architecture, not by corpus content}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Prompt token cost vs.\ corpus size, synthetic sweep, $k=5$ for RAG.\relax }}{6}{table.caption.3}\protected@file@percent }
+\newlabel{tab:synthetic-cost}{{2}{6}{Prompt token cost vs.\ corpus size, synthetic sweep, $k=5$ for RAG.\relax }{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Estimated per-call input cost vs.\ corpus size. Full-corpus cost scales linearly with corpus size; RAG cost is flat. Dollar figures use a placeholder per-token price (Section\nobreakspace  {}3.2) and should be read as illustrating the scaling relationship rather than as a final cost estimate.\relax }}{6}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:cost}{{1}{6}{Estimated per-call input cost vs.\ corpus size. Full-corpus cost scales linearly with corpus size; RAG cost is flat. Dollar figures use a placeholder per-token price (Section~3.2) and should be read as illustrating the scaling relationship rather than as a final cost estimate.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Retrieval recall degrades under distractor load, consistently across three retrievers, and does not fully recover with larger $k$}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Recall@5 (95\% bootstrap CI) vs.\ corpus size, real 15-entry anchor set with 45 queries (padded with synthetic distractors beyond 15 entries).\relax }}{7}{table.caption.5}\protected@file@percent }
+\newlabel{tab:strong-recall}{{3}{7}{Recall@5 (95\% bootstrap CI) vs.\ corpus size, real 15-entry anchor set with 45 queries (padded with synthetic distractors beyond 15 entries).\relax }{table.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Recall@$k$ (95\% bootstrap CI), real 45-query set, corpus size 2{,}000, three retrievers.\relax }}{7}{table.caption.7}\protected@file@percent }
+\newlabel{tab:strong-recall-k}{{4}{7}{Recall@$k$ (95\% bootstrap CI), real 45-query set, corpus size 2{,}000, three retrievers.\relax }{table.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{7}{section.5}\protected@file@percent }
+\citation{clearsight2026}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Recall@5 vs.\ corpus size, three retrieval methods, real 45-query set, 95\% bootstrap CI shaded. Full-corpus recall is 1.0 by construction. All three RAG methods degrade together and their intervals overlap at every corpus size.\relax }}{8}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:strong-recall-size}{{2}{8}{Recall@5 vs.\ corpus size, three retrieval methods, real 45-query set, 95\% bootstrap CI shaded. Full-corpus recall is 1.0 by construction. All three RAG methods degrade together and their intervals overlap at every corpus size.\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Recall vs.\ $k$ at corpus size 2{,}000, three retrieval methods, real 45-query set, 95\% bootstrap CI shaded. All three plateau well below full-corpus's guaranteed recall of 1.0.\relax }}{9}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:strong-recall-k}{{3}{9}{Recall vs.\ $k$ at corpus size 2{,}000, three retrieval methods, real 45-query set, 95\% bootstrap CI shaded. All three plateau well below full-corpus's guaranteed recall of 1.0.\relax }{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Limitations}{9}{section.6}\protected@file@percent }
+\newlabel{sec:limitations}{{6}{9}{Limitations}{section.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Future Work}{10}{section.7}\protected@file@percent }
+\bibstyle{plainnat}
+\bibcite{clearsight2026}{{1}{2026}{{Bhaskaran et al.}}{{}}}
+\bibcite{lewis2020rag}{{2}{2020}{{Lewis et al.}}{{}}}
+\bibcite{robertson2009bm25}{{3}{2009}{{Robertson and Zaragoza}}{{}}}
+\bibcite{deerwester1990lsa}{{4}{1990}{{Deerwester et al.}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{11}{section.8}\protected@file@percent }
+\bibcite{ciciot2023}{{5}{2023}{{Neto et al.}}{{}}}
+\bibcite{scikit-learn}{{6}{2011}{{Pedregosa et al.}}{{}}}
+\bibcite{capec}{{7}{2026}{{MITRE}}{{}}}
+\bibcite{nvd}{{8}{2026}{{NIST}}{{}}}
+\gdef \@abspage@last{12}
